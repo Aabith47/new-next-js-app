@@ -1,5 +1,6 @@
 'use client'
 import { Metadata } from "next";
+,
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import giImage from '@/components/images/gi.png';
@@ -24,6 +25,7 @@ export default function Home() {
         <div className="flex mt-4">
           <input type="text" name="spice" className="bg-white text-black px-3 py-2 w-98 rounded" placeholder="Search" />
           <button className="bg-green-700 rounded-r-sm p-2">Search</button>
+          
         </div>
       </div>
     </div>
